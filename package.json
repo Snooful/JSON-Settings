@@ -1,0 +1,5 @@
+{
+	"name": "@snooful/json-storage",
+	"description": "Stores Snooful settings in a JSON file.",
+	"version": "1.0.0"
+}
