@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"dependencies": {
 		"fs-extra": "^7.0.0",
-		"@snooful/base-storage": "^1.0.0"
+		"@snooful/settings-base": "^1.0.0"
 	},
 	"main": "settings.js",
 	"devDependencies": {},

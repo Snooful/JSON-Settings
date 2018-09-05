@@ -1,5 +1,5 @@
 const fs = require("fs-extra");
-const BSM = require("@snooful/base-storage");
+const BSM = require("@snooful/settings-base");
 
 /**
   * Manages settings via JSON.
