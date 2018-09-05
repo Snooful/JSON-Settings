@@ -1,14 +1,16 @@
 const fs = require("fs-extra");
-const BSM = require("@snooful/settings-base");
+const base = require("@snooful/settings-base");
 
 /**
   * Manages settings via JSON.
 */
-class JSONSettingsManager extends BSM {
+class JSONSettingsManager extends base.BaseSettingsManager {
 	/**
 	 * @param {string} path The file path to the JSON file to store settings in.
 	 */
 	constructor(path) {
+		super();
+
 		this.path = path;
 		this.init();
 
