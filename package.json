@@ -1,5 +1,5 @@
 {
-	"name": "@snooful/json-storage",
+	"name": "@snooful/json-settings",
 	"description": "Stores Snooful settings in a JSON file.",
 	"version": "1.0.0",
 	"dependencies": {
@@ -13,12 +13,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Snooful/JSON-Storage.git"
+		"url": "git+https://github.com/Snooful/JSON-Settings.git"
 	},
 	"author": "haykam821",
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/Snooful/JSON-Storage/issues"
+		"url": "https://github.com/Snooful/JSON-Settings/issues"
 	},
-	"homepage": "https://github.com/Snooful/JSON-Storage#readme"
+	"homepage": "https://github.com/Snooful/JSON-Settings#readme"
 }
