@@ -19,18 +19,18 @@ class JSONSettingsManager extends base.BaseSettingsManager {
 		 */
 		this.settings = {};
 	}
-  
-  init() {
-	fs.ensureFile(this.path).then(() => {
-		fs.readJSON(this.path).then(json => {
-			this.settings = json;
-		}).catch(() => {
-			this.settings = {};
+
+	init() {
+		fs.ensureFile(this.path).then(() => {
+			fs.readJSON(this.path).then(json => {
+				this.settings = json;
+			}).catch(() => {
+				this.settings = {};
+			});
 		});
-	});
-  }
-  
-  update() {
+	}
+
+	update() {
 		return fs.writeJSON(this.path, this.settings);
 	}
 }
