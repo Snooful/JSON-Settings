@@ -4,7 +4,7 @@ const base = require("@snooful/settings-base");
 /**
   * Manages settings via JSON.
 */
-class JSONSettingsManager extends base.BaseSettingsManager {
+class JSONSettingsManager extends base.SettingsManager {
 	/**
 	 * @param {string} path The file path to the JSON file to store settings in.
 	 */
@@ -34,5 +34,6 @@ class JSONSettingsManager extends base.BaseSettingsManager {
 		return fs.writeJSON(this.path, this.settings);
 	}
 }
+module.exports.SettingsManager = JSONSettingsManager;
 
-module.exports = JSONSettingsManager;
+module.exports.extension = ".json";
