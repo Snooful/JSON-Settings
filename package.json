@@ -1,7 +1,7 @@
 {
 	"name": "@snooful/json-settings",
 	"description": "Stores Snooful settings in a JSON file.",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"dependencies": {
 		"@snooful/settings-base": "^1.0.2",
 		"fs-extra": "^7.0.1"
