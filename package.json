@@ -32,5 +32,8 @@
 	"bugs": {
 		"url": "https://github.com/Snooful/JSON-Settings/issues"
 	},
-	"homepage": "https://github.com/Snooful/JSON-Settings#readme"
+	"homepage": "https://github.com/Snooful/JSON-Settings#readme",
+	"eslintConfig": {
+		"extends": "eslint-config-haykam"
+	}
 }
