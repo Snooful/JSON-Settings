@@ -2,8 +2,8 @@ const fs = require("fs-extra");
 const base = require("@snooful/settings-base");
 
 /**
-  * Manages settings via JSON.
-*/
+ * Manages settings via JSON.
+ */
 class JSONSettingsManager extends base.SettingsManager {
 	/**
 	 * @param {string} path The file path to the JSON file to store settings in.
